@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FamilyBudget.Account">
+    <Position X="10.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAYAAAQEAAAAEAAAAAQCAAAEAAAAAAABAEAAEAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FamilyBudget.Expenses">
+    <Position X="15" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Expenses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FamilyBudget.Files">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAADAQAgDAQAAAAAAAAAAAAAAAAEAEAABAAAAACAAAA=</HashCode>
+      <FileName>File.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FamilyBudget.Income">
+    <Position X="15" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Income.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FamilyBudget.Month">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACAgAAAgISAAQAACQgAIAwoAIAACACAQAAABBAAA=</HashCode>
+      <FileName>Month.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Transactions" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FamilyBudget.Persons">
+    <Position X="8.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQAAAAEAAAAAAAAAIQAAACEAAAAAAACAEAAAAA=</HashCode>
+      <FileName>Persons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FamilyBudget.Transactions">
+    <Position X="13" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABQQAAAQEAAAAAAAAEAQAABAFAAEBAQABAUEAAEE=</HashCode>
+      <FileName>Transactions.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Account" />
+      <Property Name="Persons" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FamilyBudget.User">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAACAAAQAgAAEAAISAAACGAAISAgEAlEI=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Persons" />
+      <Property Name="Month" />
+      <Property Name="Account1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FamilyBudget.Program" Collapsed="true">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
